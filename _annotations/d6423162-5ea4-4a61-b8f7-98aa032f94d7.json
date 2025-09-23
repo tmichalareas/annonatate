@@ -4,32 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "This is letter '\u0397'",
-            "purpose": "commenting",
+            "created": "2025-09-23T11:08:59.450Z",
             "creator": {
                 "id": "tmichalareas",
                 "name": "tmichalareas"
             },
-            "created": "2025-09-23T11:08:59.450Z",
-            "modified": "2025-09-23T11:09:11.348Z"
+            "modified": "2025-09-23T11:09:11.348Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "This is letter '\u0397'"
         },
         {
-            "type": "TextualBody",
-            "value": "Letters",
-            "purpose": "tagging",
+            "created": "2025-09-23T11:09:22.280Z",
             "creator": {
                 "id": "tmichalareas",
                 "name": "tmichalareas"
             },
-            "created": "2025-09-23T11:09:22.280Z",
-            "modified": "2025-09-23T11:09:24.300Z"
+            "modified": "2025-09-23T11:09:24.300Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Letters"
         }
     ],
+    "id": "d6423162-5ea4-4a61-b8f7-98aa032f94d7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=274.12103271484375,308.1738586425781,418.60662841796875,150.84149169921875"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Pal.gr.77/manifest.json",
@@ -37,13 +43,7 @@ order: 1
             },
             "id": "https://digi.vatlib.it/iiif/MSS_Pal.gr.77/canvas/p0009",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=274.12103271484375,308.1738586425781,418.60662841796875,150.84149169921875"
         }
     },
-    "id": "d6423162-5ea4-4a61-b8f7-98aa032f94d7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
