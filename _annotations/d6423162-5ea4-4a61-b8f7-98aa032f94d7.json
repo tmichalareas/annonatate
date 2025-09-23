@@ -1,0 +1,49 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Pal.gr.77/canvas/p0009"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is letter '\u0397'",
+            "purpose": "commenting",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-09-23T11:08:59.450Z",
+            "modified": "2025-09-23T11:09:11.348Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Letters",
+            "purpose": "tagging",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-09-23T11:09:22.280Z",
+            "modified": "2025-09-23T11:09:24.300Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Pal.gr.77/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Pal.gr.77/canvas/p0009",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=274.12103271484375,308.1738586425781,418.60662841796875,150.84149169921875"
+        }
+    },
+    "id": "d6423162-5ea4-4a61-b8f7-98aa032f94d7.json",
+    "motivation": "commenting"
+}
