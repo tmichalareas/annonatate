@@ -1,0 +1,48 @@
+---
+canvas: "https://collections.library.yale.edu/manifests/oid/16960328/canvas/16978100"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Comment to be confirmed",
+            "purpose": "commenting",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-09-28T19:29:58.923Z",
+            "modified": "2025-09-28T19:30:05.787Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "tagging",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-09-28T19:30:13.274Z",
+            "modified": "2025-09-28T19:30:13.658Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/collections.library.yale.edu/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://collections.library.yale.edu/manifests/oid/16960328/canvas/16978100",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2003.097900390625,1457.1011962890625 1908.9263916015625,1639.122802734375 2119.787841796875,1848.32373046875 2209.27880859375,1619.624267578125 2124.759521484375,1430.6986083984375\"></polygon></svg>"
+        }
+    },
+    "id": "72e6b2d2-85bc-46dc-a0d3-2c2910a5b0f3.json",
+    "motivation": "commenting"
+}
