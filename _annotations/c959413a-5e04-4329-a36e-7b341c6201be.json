@@ -1,0 +1,49 @@
+---
+canvas: "https://cdm21059.contentdm.oclc.org/iiif/plutei:920786/canvas/c2"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Number 86",
+            "purpose": "commenting",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-10-20T22:23:29.496Z",
+            "modified": "2025-10-20T22:23:41.906Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Numbers",
+            "purpose": "tagging",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-10-20T22:23:43.957Z",
+            "modified": "2025-10-20T22:23:44.992Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/plutei:921031/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://cdm21059.contentdm.oclc.org/iiif/plutei:920786/canvas/c2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1691.8316650390625,2680.7509765625,783.9188232421875,518.001220703125"
+        }
+    },
+    "id": "c959413a-5e04-4329-a36e-7b341c6201be.json",
+    "motivation": "commenting"
+}
