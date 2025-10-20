@@ -1,0 +1,49 @@
+---
+canvas: "https://cdm21059.contentdm.oclc.org/iiif/plutei:920786/canvas/c2"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Symbol Sigma",
+            "purpose": "commenting",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-10-20T22:22:01.991Z",
+            "modified": "2025-10-20T22:22:12.116Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "symbols",
+            "purpose": "tagging",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "created": "2025-10-20T22:22:07.558Z",
+            "modified": "2025-10-20T22:22:08.774Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/plutei:921031/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://cdm21059.contentdm.oclc.org/iiif/plutei:920786/canvas/c2",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1133.8564453125,988.4012451171875,865.973388671875,644.3087158203125"
+        }
+    },
+    "id": "0b2c9b9b-a897-41b6-87dd-64789c2f123f.json",
+    "motivation": "commenting"
+}
