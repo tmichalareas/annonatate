@@ -4,32 +4,60 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Symbol Sigma",
-            "purpose": "commenting",
+            "created": "2025-10-20T22:22:01.991Z",
             "creator": {
                 "id": "tmichalareas",
                 "name": "tmichalareas"
             },
-            "created": "2025-10-20T22:22:01.991Z",
-            "modified": "2025-10-20T22:22:12.116Z"
+            "modified": "2025-10-20T22:22:12.116Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Symbol Sigma"
+        },
+        {
+            "created": "2025-10-20T22:22:07.558Z",
+            "creator": {
+                "id": "tmichalareas",
+                "name": "tmichalareas"
+            },
+            "modified": "2025-10-20T22:22:08.774Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "symbols"
         },
         {
             "type": "TextualBody",
-            "value": "symbols",
+            "value": "This is propably correct",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pmedikosulti",
+                "name": "pmedikosulti"
+            },
+            "created": "2025-10-27T09:39:28.595Z",
+            "modified": "2025-10-27T09:39:44.384Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "comments",
             "purpose": "tagging",
             "creator": {
-                "id": "tmichalareas",
-                "name": "tmichalareas"
+                "id": "pmedikosulti",
+                "name": "pmedikosulti"
             },
-            "created": "2025-10-20T22:22:07.558Z",
-            "modified": "2025-10-20T22:22:08.774Z"
+            "created": "2025-10-27T09:39:47.350Z",
+            "modified": "2025-10-27T09:39:48.200Z"
         }
     ],
+    "id": "0b2c9b9b-a897-41b6-87dd-64789c2f123f.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1133.8564453125,988.4012451171875,865.973388671875,644.3087158203125"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/plutei:921031/manifest.json",
@@ -37,13 +65,7 @@ order: 1
             },
             "id": "https://cdm21059.contentdm.oclc.org/iiif/plutei:920786/canvas/c2",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1133.8564453125,988.4012451171875,865.973388671875,644.3087158203125"
         }
     },
-    "id": "0b2c9b9b-a897-41b6-87dd-64789c2f123f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
