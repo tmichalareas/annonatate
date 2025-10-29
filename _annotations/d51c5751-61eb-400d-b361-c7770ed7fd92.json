@@ -4,21 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "mandragora arren Grec 2179 104r",
-            "purpose": "commenting",
+            "created": "2025-10-29T13:20:51.249Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T13:20:51.249Z",
-            "modified": "2025-10-29T13:21:04.960Z"
+            "modified": "2025-10-29T13:21:04.960Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "mandragora arren Grec 2179 104r"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Plant",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:23:41.120Z",
+            "modified": "2025-10-29T13:23:42.351Z"
         }
     ],
+    "id": "d51c5751-61eb-400d-b361-c7770ed7fd92.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1029.851806640625,2267.768798828125,1879.292236328125,1878.545654296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/12148/btv1b525002505/manifest.json",
@@ -26,13 +43,7 @@ order: 1
             },
             "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f215",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1029.851806640625,2267.768798828125,1879.292236328125,1878.545654296875"
         }
     },
-    "id": "d51c5751-61eb-400d-b361-c7770ed7fd92.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
