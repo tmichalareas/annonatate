@@ -1,0 +1,49 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10082843v/canvas/f4"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "First chapter/door",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T12:32:28.063Z",
+            "modified": "2025-10-29T12:32:39.287Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Esteban Oct. 29, 2025",
+            "purpose": "tagging",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T12:32:47.468Z",
+            "modified": "2025-10-29T12:33:22.262Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/12148/btv1b10082843v/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10082843v/canvas/f4",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1204.3809814453125,1429.1358642578125,657.52783203125,200.1171875"
+        }
+    },
+    "id": "58a509a4-7c13-45fd-b0c7-267b9b3e0d1f.json",
+    "motivation": "commenting"
+}
