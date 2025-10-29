@@ -11,20 +11,20 @@ order: 1
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "modified": "2025-10-29T13:39:16.058Z",
+            "modified": "2025-10-29T13:57:19.982Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Matthew"
+            "value": "Matthew 17r"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Gospel",
+            "created": "2025-10-29T13:44:21.575Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T13:44:21.575Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Gospel"
         }
     ],
     "id": "07735373-369b-4692-8b80-0f7b7973adfb.json",
