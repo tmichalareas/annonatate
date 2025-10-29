@@ -1,0 +1,37 @@
+---
+canvas: "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Guatemala",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T12:55:58.694Z",
+            "modified": "2025-10-29T12:56:00.444Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/v20/3941356/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"333.22210693359375,1480.1688232421875 438.8293762207031,1518.4749755859375 417.59710693359375,1551.596435546875 320.32440185546875,1510.6873779296875\"></polygon></svg>"
+        }
+    },
+    "id": "c54c58cb-65dd-4e24-bbd7-6a9f2ceb8635.json",
+    "motivation": "commenting"
+}
