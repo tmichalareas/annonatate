@@ -1,0 +1,49 @@
+---
+canvas: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/40"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Matthew",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:20:37.897Z",
+            "modified": "2025-10-29T14:20:39.237Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Gospel",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:20:41.525Z",
+            "modified": "2025-10-29T14:20:42.576Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/40",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=274.9720458984375,335.05615234375,724.8178100585938,819.0126953125"
+        }
+    },
+    "id": "99da6e26-579d-4577-9d3e-4886e38ce830.json",
+    "motivation": "commenting"
+}
