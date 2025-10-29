@@ -1,0 +1,48 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0248"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Luke 117v",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:55:48.596Z",
+            "modified": "2025-10-29T13:56:03.242Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:56:09.121Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0248",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=497.8699035644531,395.3627014160156,1246.1289978027344,1268.9960632324219"
+        }
+    },
+    "id": "c514d373-94ac-47ae-b473-e197a476599b.json",
+    "motivation": "commenting"
+}
