@@ -4,21 +4,27 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "struchnon alikakabon 102r",
-            "purpose": "commenting",
+            "created": "2025-10-29T13:08:34.028Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T13:08:34.028Z",
-            "modified": "2025-10-29T13:09:04.954Z"
+            "modified": "2025-10-29T13:14:49.403Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "struchnon alikakabon Grec 2179 102r "
         }
     ],
+    "id": "941df7ac-f968-4d4f-832f-59b373720c9b.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1397.9327392578125,1297.1806640625,1292.1673583984375,138.0697021484375"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/12148/btv1b525002505/manifest.json",
@@ -26,13 +32,7 @@ order: 1
             },
             "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f211",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1397.9327392578125,1297.1806640625,1292.1673583984375,138.0697021484375"
         }
     },
-    "id": "941df7ac-f968-4d4f-832f-59b373720c9b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
