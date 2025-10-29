@@ -1,0 +1,48 @@
+---
+canvas: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/186"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mark 186",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:25:45.870Z",
+            "modified": "2025-10-29T14:25:48.694Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:25:57.278Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/186",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=216.64617919921875,181.99111938476562,865.7821655273438,1064.5666198730469"
+        }
+    },
+    "id": "bc39c39e-6b68-4e87-a792-10c53be9e372.json",
+    "motivation": "commenting"
+}
