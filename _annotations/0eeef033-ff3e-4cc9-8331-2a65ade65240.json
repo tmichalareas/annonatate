@@ -1,0 +1,49 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10082843v/canvas/f3"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Geat",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T12:39:22.902Z",
+            "modified": "2025-10-29T12:39:24.983Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Esteban 2. Oct. 29, 2025",
+            "purpose": "tagging",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T12:39:29.773Z",
+            "modified": "2025-10-29T12:39:53.300Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/12148/btv1b10082843v/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10082843v/canvas/f3",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=783.7265625,2041.7393798828125,281.797607421875,212.3692626953125"
+        }
+    },
+    "id": "0eeef033-ff3e-4cc9-8331-2a65ade65240.json",
+    "motivation": "commenting"
+}
