@@ -1,0 +1,38 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Ott.gr.12.pt.1/canvas/p0169"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Enluminure",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T10:39:02.595Z",
+            "modified": "2025-10-29T10:39:06.112Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Ott.gr.12.pt.1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Ott.gr.12.pt.1/canvas/p0169",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1062.5703125,350.23699951171875,949.5787353515625,352.84686279296875"
+        }
+    },
+    "id": "f52f3ebf-f271-430e-b74d-df017c28f0c6.json",
+    "motivation": "commenting"
+}
