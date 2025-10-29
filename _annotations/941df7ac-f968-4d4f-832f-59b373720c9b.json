@@ -15,6 +15,16 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "struchnon alikakabon Grec 2179 102r "
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Plant",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:24:36.971Z"
         }
     ],
     "id": "941df7ac-f968-4d4f-832f-59b373720c9b.json",
