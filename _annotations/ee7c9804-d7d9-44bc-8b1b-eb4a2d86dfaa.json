@@ -1,0 +1,48 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Ott.gr.12.pt.1/canvas/p0169"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Letter?",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T10:27:57.548Z",
+            "modified": "2025-10-29T10:28:05.429Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Letters",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T10:28:15.812Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Ott.gr.12.pt.1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Ott.gr.12.pt.1/canvas/p0169",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=969.0538330078125,867.4169311523438,386.3543701171875,368.54034423828125"
+        }
+    },
+    "id": "ee7c9804-d7d9-44bc-8b1b-eb4a2d86dfaa.json",
+    "motivation": "commenting"
+}
