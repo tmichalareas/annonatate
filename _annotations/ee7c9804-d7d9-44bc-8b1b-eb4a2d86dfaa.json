@@ -4,31 +4,37 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Letter?",
-            "purpose": "commenting",
+            "created": "2025-10-29T10:27:57.548Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T10:27:57.548Z",
-            "modified": "2025-10-29T10:28:05.429Z"
+            "modified": "2025-10-29T10:31:40.129Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Letter: epsilon"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Letters",
+            "created": "2025-10-29T10:28:15.812Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T10:28:15.812Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Letters"
         }
     ],
+    "id": "ee7c9804-d7d9-44bc-8b1b-eb4a2d86dfaa.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=969.0538330078125,867.4169311523438,386.3543701171875,368.54034423828125"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Ott.gr.12.pt.1/manifest.json",
@@ -36,13 +42,7 @@ order: 1
             },
             "id": "https://digi.vatlib.it/iiif/MSS_Ott.gr.12.pt.1/canvas/p0169",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=969.0538330078125,867.4169311523438,386.3543701171875,368.54034423828125"
         }
     },
-    "id": "ee7c9804-d7d9-44bc-8b1b-eb4a2d86dfaa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
