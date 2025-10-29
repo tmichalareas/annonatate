@@ -1,0 +1,47 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0045"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Encircled 5 circles",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T16:21:29.400Z",
+            "modified": "2025-10-29T16:22:28.008Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Esteban Oct. 29, 2025",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T16:22:45.260Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0045",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"761.4858093261719\" cy=\"964.6778106689453\" r=\"759.0647135819818\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6ef20ec4-6879-411f-9220-24115d71b3a9.json",
+    "motivation": "commenting"
+}
