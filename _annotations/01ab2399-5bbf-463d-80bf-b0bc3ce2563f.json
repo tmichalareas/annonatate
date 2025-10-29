@@ -1,0 +1,48 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0377"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "John 180r",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:01:54.321Z",
+            "modified": "2025-10-29T14:01:58.153Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:02:03.370Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0377",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=185.2215576171875,469.4747619628906,1349.319580078125,1278.9674987792969"
+        }
+    },
+    "id": "01ab2399-5bbf-463d-80bf-b0bc3ce2563f.json",
+    "motivation": "commenting"
+}
