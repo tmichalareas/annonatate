@@ -1,0 +1,48 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0316"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Letter Epsilon",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T16:23:19.847Z",
+            "modified": "2025-10-29T16:23:29.231Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Esteban Oct. 29, 2025",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-29T16:23:40.814Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0316",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1232.4954833984375,1828.917236328125,85.447998046875,154.4637451171875"
+        }
+    },
+    "id": "e7a8a20d-befa-4425-9738-9f0daa5a52f9.json",
+    "motivation": "commenting"
+}
