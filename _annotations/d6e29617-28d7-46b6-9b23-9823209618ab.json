@@ -1,0 +1,49 @@
+---
+canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0169"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Mark",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:42:36.435Z",
+            "modified": "2025-10-29T13:42:37.375Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Gospel",
+            "purpose": "tagging",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:42:41.151Z",
+            "modified": "2025-10-29T13:42:42.140Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0169",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=161.1304473876953,442.1123046875,1333.3368377685547,1358.068115234375"
+        }
+    },
+    "id": "d6e29617-28d7-46b6-9b23-9823209618ab.json",
+    "motivation": "commenting"
+}
