@@ -1,0 +1,48 @@
+---
+canvas: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/284"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Luke 284",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:28:32.585Z",
+            "modified": "2025-10-29T14:28:35.173Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:28:39.790Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/284",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=215.35382080078125,237.85626220703125,864.2058715820312,1024.2650756835938"
+        }
+    },
+    "id": "df11e8fb-ac36-416b-967e-a7d4b127130a.json",
+    "motivation": "commenting"
+}
