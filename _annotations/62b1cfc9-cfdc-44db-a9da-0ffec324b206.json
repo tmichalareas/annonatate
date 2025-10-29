@@ -1,0 +1,48 @@
+---
+canvas: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/450"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "John 450",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:34:25.674Z",
+            "modified": "2025-10-29T14:34:34.644Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:34:38.198Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/450",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=225.0023956298828,267.46661376953125,809.9469451904297,963.3622436523438"
+        }
+    },
+    "id": "62b1cfc9-cfdc-44db-a9da-0ffec324b206.json",
+    "motivation": "commenting"
+}
