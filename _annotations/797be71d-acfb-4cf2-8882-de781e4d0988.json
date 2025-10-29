@@ -4,31 +4,37 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "B",
-            "purpose": "describing",
+            "created": "2025-10-29T14:22:53.535Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T14:22:53.535Z",
-            "modified": "2025-10-29T14:22:57.882Z"
+            "modified": "2025-10-29T14:24:10.478Z",
+            "purpose": "describing",
+            "type": "TextualBody",
+            "value": "B 40"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Letters",
+            "created": "2025-10-29T14:23:02.413Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T14:23:02.413Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Letters"
         }
     ],
+    "id": "797be71d-acfb-4cf2-8882-de781e4d0988.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=101.87974548339844,632.8837280273438,105.859375,285.866455078125"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
@@ -36,13 +42,7 @@ order: 1
             },
             "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/41",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=101.87974548339844,632.8837280273438,105.859375,285.866455078125"
         }
     },
-    "id": "797be71d-acfb-4cf2-8882-de781e4d0988.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
