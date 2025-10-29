@@ -1,0 +1,173 @@
+---
+added: '2025-10-29 12:41:27.920806'
+thumbnail: https://digital.blb-karlsruhe.de/i3f/v21/5921847/full/304/0/default.jpg
+title: "Prospect Hoch-F\xFCrstlich-Baaden-Durlachischer Residenz Schlo\xDF und Stadt\
+  \ Carls-Ruhe"
+user: jrazana
+
+---
+{
+  "viewingHint": "paged",
+  "service": [],
+  "structures": [],
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "height": 7559,
+          "width": 6555,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5921847"
+                },
+                "format": "image/jpeg",
+                "height": 1153,
+                "width": 1000,
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/5921847",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
+              "motivation": "sc:painting",
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/annotation/5921847",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "[1]",
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 7559,
+          "width": 6555,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5921848"
+                },
+                "format": "image/jpeg",
+                "height": 1153,
+                "width": 1000,
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/5921848",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921848",
+              "motivation": "sc:painting",
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/annotation/5921848",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "[2]",
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921848",
+          "@type": "sc:Canvas"
+        },
+        {
+          "height": 8268,
+          "width": 6555,
+          "images": [
+            {
+              "resource": {
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5921849"
+                },
+                "format": "image/jpeg",
+                "height": 1261,
+                "width": 1000,
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/5921849",
+                "@type": "dctypes:Image"
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921849",
+              "motivation": "sc:painting",
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/annotation/5921849",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "[3]",
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921849",
+          "@type": "sc:Canvas"
+        }
+      ],
+      "viewingHint": "paged",
+      "startCanvas": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
+      "viewingDirection": "left-to-right",
+      "label": "Current Page Order",
+      "@context": "http://iiif.io/api/presentation/2/context.json",
+      "@id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/sequence/normal",
+      "@type": "sc:Sequence"
+    }
+  ],
+  "label": "Prospect Hoch-F\u00fcrstlich-Baaden-Durlachischer Residenz Schlo\u00df und Stadt Carls-Ruhe",
+  "thumbnail": {
+    "width": 304,
+    "height": 350,
+    "@id": "https://digital.blb-karlsruhe.de/i3f/v21/5921847/full/304/0/default.jpg",
+    "@type": "dctypes:Image",
+    "format": "image/jpeg"
+  },
+  "logo": {
+    "@id": "https://digital.blb-karlsruhe.de/domainresource/static/graphics/connectors/viewerLogo.gif",
+    "service": {
+      "profile": "http://iiif.io/api/image/2/level2.json",
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "http://www.blb-karlsruhe.de/"
+    }
+  },
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "seeAlso": {
+    "format": "application/xml",
+    "@id": "https://digital.blb-karlsruhe.de/oai?verb=GetRecord&metadataPrefix=mets&identifier=5901351",
+    "label": "METS"
+  },
+  "@id": "https://tmichalareas.github.io/annonatate/manifests/v20/5901351/manifest.json",
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "value": "Prospect Hoch-F\u00fcrstlich-Baaden-Durlachischer Residenz Schlo\u00df und Stadt Carls-Ruhe / Christian Thran",
+      "label": "Titel"
+    },
+    {
+      "value": "Thran, Christian",
+      "label": "Beteiligt"
+    },
+    {
+      "value": "Maschenbauer, Andreas Jakob",
+      "label": "Drucker"
+    },
+    {
+      "value": "Carls-Ruh : Zu finden bey Andreas Iac. Maschenbauer F\u00fcrstl. Hof- u: Cantzley Buchdr., 1740",
+      "label": "Erschienen"
+    },
+    {
+      "value": "1 Blatt ; 53 x 62 cm",
+      "label": "Umfang"
+    },
+    {
+      "value": "Es handelt sich um einen Vogelschauplan (Kupferdruck)Die Blattgr\u00f6\u00dfe ist identisch mit dem Druckbild",
+      "label": "Anmerkung"
+    },
+    {
+      "value": "Deutsch ; Franz\u00f6sisch",
+      "label": "Sprache"
+    },
+    {
+      "value": "115 B 6026 R",
+      "label": "Signatur"
+    },
+    {
+      "value": "Digitalisierung",
+      "label": "URL"
+    },
+    {
+      "value": "urn:nbn:de:bsz:31-129882",
+      "label": "URN"
+    }
+  ]
+}
