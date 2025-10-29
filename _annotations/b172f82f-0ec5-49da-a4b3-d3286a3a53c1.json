@@ -1,0 +1,38 @@
+---
+canvas: "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f211"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "struchnon alikakabon Grec 2179 102r",
+            "purpose": "describing",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:17:38.683Z",
+            "modified": "2025-10-29T13:18:04.603Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/12148/btv1b525002505/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b525002505/canvas/f211",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1234.51806640625,2135.615234375,1616.45556640625,1946.33837890625"
+        }
+    },
+    "id": "b172f82f-0ec5-49da-a4b3-d3286a3a53c1.json",
+    "motivation": "commenting"
+}
