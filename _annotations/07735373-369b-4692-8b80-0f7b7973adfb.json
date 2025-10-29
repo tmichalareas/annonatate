@@ -3,21 +3,37 @@ canvas: "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0045"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Matthew",
-            "purpose": "commenting",
+            "created": "2025-10-29T13:39:14.661Z",
             "creator": {
                 "id": "jrazana",
                 "name": "jrazana"
             },
-            "created": "2025-10-29T13:39:14.661Z",
-            "modified": "2025-10-29T13:39:16.058Z"
+            "modified": "2025-10-29T13:39:16.058Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Matthew"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Gospel",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T13:44:21.575Z"
         }
     ],
+    "id": "07735373-369b-4692-8b80-0f7b7973adfb.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"771.7711791992188\" cy=\"1093.5550537109375\" r=\"640.230682251276\"></circle></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/iiif/MSS_Vat.gr.354/manifest.json",
@@ -25,13 +41,7 @@ order: 1
             },
             "id": "https://digi.vatlib.it/iiif/MSS_Vat.gr.354/canvas/p0045",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><circle cx=\"771.7711791992188\" cy=\"1093.5550537109375\" r=\"640.230682251276\"></circle></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07735373-369b-4692-8b80-0f7b7973adfb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
