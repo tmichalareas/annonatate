@@ -1,0 +1,48 @@
+---
+canvas: "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/285"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "E 285",
+            "purpose": "commenting",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:32:16.007Z",
+            "modified": "2025-10-29T14:32:18.347Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Letters",
+            "creator": {
+                "id": "jrazana",
+                "name": "jrazana"
+            },
+            "created": "2025-10-29T14:32:23.630Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/presentation/v3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.onb.ac.at/iiif/presentation/v3/manifest/10048A59/canvas/285",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=137.98880004882812,531.7735595703125,87.22633361816406,207.01580810546875"
+        }
+    },
+    "id": "866348ad-c108-4025-b36d-7f34e42c1db3.json",
+    "motivation": "commenting"
+}
