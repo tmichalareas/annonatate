@@ -1,117 +1,51 @@
 ---
-added: '2025-10-29 12:46:46.539688'
-thumbnail: https://digital.blb-karlsruhe.de/i3f/v21/3941371/full/304/0/default.jpg
-title: "West Indische Paskaert waerin de graden per breedde over wederzyden vande\
-  \ middelyn wa\xDFende so vergrooten dat die gegproportioneert syn tegen hunne nevenstaende\
-  \ der legende - D 40"
-user: jrazana
-
+layout: none
 ---
 {
-  "viewingHint": "paged",
-  "service": [],
-  "structures": [],
-  "sequences": [
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}manifests/v20/3941356/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "West Indische Paskaert waerin de graden per breedde over wederzyden vande middelyn wa\u00dfende so vergrooten dat die gegproportioneert syn tegen hunne nevenstaende der legende - D 40",
+  "metadata": [
     {
-      "canvases": [
-        {
-          "height": 3074,
-          "width": 3755,
-          "images": [
-            {
-              "resource": {
-                "service": {
-                  "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941371"
-                },
-                "format": "image/jpeg",
-                "height": 818,
-                "width": 1000,
-                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941371",
-                "@type": "dctypes:Image"
-              },
-              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
-              "motivation": "sc:painting",
-              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941371",
-              "@type": "oa:Annotation"
-            }
-          ],
-          "label": "[1]",
-          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
-          "@type": "sc:Canvas"
-        },
-        {
-          "height": 3074,
-          "width": 3754,
-          "images": [
-            {
-              "resource": {
-                "service": {
-                  "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941373"
-                },
-                "format": "image/jpeg",
-                "height": 818,
-                "width": 1000,
-                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941373",
-                "@type": "dctypes:Image"
-              },
-              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941373",
-              "motivation": "sc:painting",
-              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941373",
-              "@type": "oa:Annotation"
-            }
-          ],
-          "label": "[2]",
-          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941373",
-          "@type": "sc:Canvas"
-        },
-        {
-          "height": 3074,
-          "width": 1069,
-          "images": [
-            {
-              "resource": {
-                "service": {
-                  "profile": "http://iiif.io/api/image/2/level2.json",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941374"
-                },
-                "format": "image/jpeg",
-                "height": 2875,
-                "width": 1000,
-                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941374",
-                "@type": "dctypes:Image"
-              },
-              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941374",
-              "motivation": "sc:painting",
-              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941374",
-              "@type": "oa:Annotation"
-            }
-          ],
-          "label": "[3]",
-          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941374",
-          "@type": "sc:Canvas"
-        }
-      ],
-      "viewingHint": "paged",
-      "startCanvas": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
-      "viewingDirection": "left-to-right",
-      "label": "Current Page Order",
-      "@context": "http://iiif.io/api/presentation/2/context.json",
-      "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/sequence/normal",
-      "@type": "sc:Sequence"
+      "label": "Titel",
+      "value": "West Indische Paskaert waerin de graden per breedde over wederzyden vande middelyn wa\u00dfende so vergrooten dat die gegproportioneert syn tegen hunne nevenstaende der legende - D 40 : vertonen (behal van Europaes zuylijcste) alle de Zeekusten van Africa en America, begreppen in't Octroy bij de H. M. Staten, generael de vereeniche Nederl., verleent aende Generale West Indische Compagnie. Mitsgaders die van Peru en Chile, inde groote Zuyd-Zee / beschreven door Willem I. Blaeuw"
+    },
+    {
+      "label": "Beitr\u00e4ger",
+      "value": "Blaeu, Willem Janszoon"
+    },
+    {
+      "label": "Erschienen",
+      "value": "[Amsterdam], 1622-1630"
+    },
+    {
+      "label": "Umfang",
+      "value": "[1] Kt. ; 78,0 x 97,5 cm"
+    },
+    {
+      "label": "Signatur",
+      "value": "D 40"
+    },
+    {
+      "label": "URL",
+      "value": "Digitalisierung"
+    },
+    {
+      "label": "Online-Ausgabe",
+      "value": "Karlsruhe : Badische Landesbibliothek, 2017"
+    },
+    {
+      "label": "URN",
+      "value": "urn:nbn:de:bsz:31-78133"
     }
   ],
-  "label": "West Indische Paskaert waerin de graden per breedde over wederzyden vande middelyn wa\u00dfende so vergrooten dat die gegproportioneert syn tegen hunne nevenstaende der legende - D 40",
   "thumbnail": {
-    "width": 304,
-    "height": 248,
     "@id": "https://digital.blb-karlsruhe.de/i3f/v21/3941371/full/304/0/default.jpg",
     "@type": "dctypes:Image",
-    "format": "image/jpeg"
+    "format": "image/jpeg",
+    "height": 248,
+    "width": 304
   },
   "logo": {
     "@id": "https://digital.blb-karlsruhe.de/domainresource/static/graphics/connectors/viewerLogo.gif",
@@ -121,46 +55,124 @@ user: jrazana
       "@id": "http://www.blb-karlsruhe.de/"
     }
   },
-  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "viewingHint": "paged",
   "seeAlso": {
     "format": "application/xml",
     "@id": "https://digital.blb-karlsruhe.de/oai?verb=GetRecord&metadataPrefix=mets&identifier=3941356",
     "label": "METS"
   },
-  "@id": "https://tmichalareas.github.io/annonatate/manifests/v20/3941356/manifest.json",
-  "@type": "sc:Manifest",
-  "metadata": [
+  "sequences": [
     {
-      "value": "West Indische Paskaert waerin de graden per breedde over wederzyden vande middelyn wa\u00dfende so vergrooten dat die gegproportioneert syn tegen hunne nevenstaende der legende - D 40 : vertonen (behal van Europaes zuylijcste) alle de Zeekusten van Africa en America, begreppen in't Octroy bij de H. M. Staten, generael de vereeniche Nederl., verleent aende Generale West Indische Compagnie. Mitsgaders die van Peru en Chile, inde groote Zuyd-Zee / beschreven door Willem I. Blaeuw",
-      "label": "Titel"
-    },
-    {
-      "value": "Blaeu, Willem Janszoon",
-      "label": "Beitr\u00e4ger"
-    },
-    {
-      "value": "[Amsterdam], 1622-1630",
-      "label": "Erschienen"
-    },
-    {
-      "value": "[1] Kt. ; 78,0 x 97,5 cm",
-      "label": "Umfang"
-    },
-    {
-      "value": "D 40",
-      "label": "Signatur"
-    },
-    {
-      "value": "Digitalisierung",
-      "label": "URL"
-    },
-    {
-      "value": "Karlsruhe : Badische Landesbibliothek, 2017",
-      "label": "Online-Ausgabe"
-    },
-    {
-      "value": "urn:nbn:de:bsz:31-78133",
-      "label": "URN"
+      "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/sequence/normal",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "startCanvas": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
+      "viewingDirection": "left-to-right",
+      "viewingHint": "paged",
+      "canvases": [
+        {
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371",
+          "@type": "sc:Canvas",
+          "label": "[1]",
+          "height": 3074,
+          "width": 3755,
+          "images": [
+            {
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941371",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941371",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 818,
+                "width": 1000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941371",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941371"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/i3f-v20-3941356-3941371-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941373",
+          "@type": "sc:Canvas",
+          "label": "[2]",
+          "height": 3074,
+          "width": 3754,
+          "images": [
+            {
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941373",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941373",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 818,
+                "width": 1000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941373",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941373"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/i3f-v20-3941356-3941373-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
+        },
+        {
+          "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941374",
+          "@type": "sc:Canvas",
+          "label": "[3]",
+          "height": 3074,
+          "width": 1069,
+          "images": [
+            {
+              "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/annotation/3941374",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://digital.blb-karlsruhe.de/download/webcache/1000/3941374",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2875,
+                "width": 1000,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://digital.blb-karlsruhe.de/i3f/v20/3941374",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "https://digital.blb-karlsruhe.de/i3f/v20/3941356/canvas/3941374"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "{{ '/' | absolute_url }}annotations/i3f-v20-3941356-3941374-list.json",
+              "@type": "sc:AnnotationList",
+              "label": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
