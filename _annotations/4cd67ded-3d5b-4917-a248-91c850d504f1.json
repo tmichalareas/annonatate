@@ -4,32 +4,37 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Left Blazon",
-            "purpose": "commenting",
+            "created": "2025-10-31T14:34:18.556Z",
             "creator": {
                 "id": "b-esteban",
                 "name": "Esteban Bel."
             },
-            "created": "2025-10-31T14:34:18.556Z",
-            "modified": "2025-10-31T14:34:34.685Z"
+            "modified": "2025-10-31T14:34:34.685Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Left Blazon"
         },
         {
             "type": "TextualBody",
-            "value": "Esteban Oct? 31 2025",
             "purpose": "tagging",
+            "value": "Esteban Oct. 29, 2025",
             "creator": {
                 "id": "b-esteban",
                 "name": "Esteban Bel."
             },
-            "created": "2025-10-31T14:34:39.001Z",
-            "modified": "2025-10-31T14:34:52.208Z"
+            "created": "2025-10-31T14:42:55.227Z"
         }
     ],
+    "id": "4cd67ded-3d5b-4917-a248-91c850d504f1.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=429.9859619140625,214.158447265625,1308.74609375,1348.405029296875"
+        },
         "source": {
             "partOf": {
                 "id": "https://tmichalareas.github.io/annonatate/manifests/v20/5901351/manifest.json",
@@ -37,13 +42,7 @@ order: 1
             },
             "id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=429.9859619140625,214.158447265625,1308.74609375,1348.405029296875"
         }
     },
-    "id": "4cd67ded-3d5b-4917-a248-91c850d504f1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
