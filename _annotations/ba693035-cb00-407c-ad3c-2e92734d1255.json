@@ -1,0 +1,49 @@
+---
+canvas: "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Explanation in French",
+            "purpose": "commenting",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-31T14:35:23.904Z",
+            "modified": "2025-10-31T14:35:34.520Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Esteban Oct. 31, 2025",
+            "purpose": "tagging",
+            "creator": {
+                "id": "b-esteban",
+                "name": "Esteban Bel."
+            },
+            "created": "2025-10-31T14:35:43.365Z",
+            "modified": "2025-10-31T14:36:03.433Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://tmichalareas.github.io/annonatate/manifests/v20/5901351/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://digital.blb-karlsruhe.de/i3f/v20/5901351/canvas/5921847",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3705.81689453125,5940.9140625,2744.40087890625,1173.9052734375"
+        }
+    },
+    "id": "ba693035-cb00-407c-ad3c-2e92734d1255.json",
+    "motivation": "commenting"
+}
